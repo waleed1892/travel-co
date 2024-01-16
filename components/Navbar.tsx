@@ -10,12 +10,12 @@ export const Navbar = () => {
       </Link>
       <ul className="hidden h-full gap-12 lg:flex">
         {navLinks.map((link) => (
-          <li key={link.name} className="flex h-full items-center">
+          <li key={link.label} className="flex h-full items-center">
             <Link
               className="flex items-center justify-center pb-1.5 text-base text-gray-500 transition-all hover:font-bold"
               href={link.href}
             >
-              {link.name}
+              {link.label}
             </Link>
           </li>
         ))}
