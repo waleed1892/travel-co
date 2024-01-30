@@ -68,7 +68,7 @@ const config = {
           50: '#FF814C',
         },
         blue: {
-          50: '#021639',
+          700: '#021639',
         },
         yellow: {
           50: '#FEC601',
@@ -97,11 +97,11 @@ const config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'bg-img-1': "url('/img-1.png')",
-        'bg-img-2': "url('/img-2.png')",
-        'feature-bg': "url('/feature-bg.png')",
-        pattern: "url('/pattern.png')",
-        'pattern-2': "url('/pattern-bg.png')",
+        'bg-img-1': "url('/assets/images/img-1.png')",
+        'bg-img-2': "url('/assets/images/img-2.png')",
+        'feature-bg': "url('/assets/images/feature-bg.png')",
+        pattern: "url('/assets/images/pattern.png')",
+        'pattern-2': "url('/assets/images/pattern-bg.png')",
       },
       screens: {
         xs: '400px',
