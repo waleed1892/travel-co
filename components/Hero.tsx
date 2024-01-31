@@ -44,7 +44,7 @@ const Hero = () => {
         <div className="flex w-full flex-col gap-3 sm:flex-row">
           <Button
             size={'lg'}
-            className="rounded-full border-green-50 bg-green-50"
+            className="rounded-full border-green-500 bg-green-500 hover:bg-green-600"
           >
             Download App
           </Button>

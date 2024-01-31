@@ -20,3 +20,10 @@ export const navLinks = [
     href: '/contact',
   },
 ]
+
+export const PEOPLE_IMAGE_URL = [
+  '/assets/images/person-1.png',
+  '/assets/images/person-2.png',
+  '/assets/images/person-3.png',
+  '/assets/images/person-4.png',
+]

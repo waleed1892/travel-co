@@ -54,7 +54,7 @@ const config = {
           foreground: 'hsl(var(--card-foreground))',
         },
         green: {
-          50: '#30AF5B',
+          500: '#30AF5B',
           900: '#292C27',
         },
         gray: {
@@ -74,7 +74,11 @@ const config = {
           50: '#FEC601',
         },
       },
+      maxWidth: {
+        '10xl': '1512px',
+      },
       borderRadius: {
+        '5xl': '2.5rem',
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
