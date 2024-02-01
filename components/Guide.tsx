@@ -14,7 +14,7 @@ const Guide = () => {
           We are here for you
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="text-[40px] font-bold lg:text-[64px] xl:max-w-[390px]">
+          <h2 className="text-[40px] font-bold leading-[120%] lg:text-[64px] xl:max-w-[390px]">
             Guide for your next trip
           </h2>
           <p className="text-base text-gray-300 xl:max-w-[520px]">
