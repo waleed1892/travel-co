@@ -15,7 +15,7 @@ const GetApp = () => {
           <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
             <Button
               size={'lg'}
-              className="w-full gap-3 rounded-full bg-white text-green-500"
+              className="w-full gap-3 rounded-full bg-white text-green-500 hover:bg-white"
             >
               <Image
                 src={'/assets/images/apple.svg'}
@@ -27,7 +27,7 @@ const GetApp = () => {
             </Button>
             <Button
               size={'lg'}
-              className="w-full gap-3 rounded-full bg-green-900 text-gray-200"
+              className="w-full gap-3 rounded-full border border-gray-200 bg-green-900 hover:bg-transparent"
             >
               <Image
                 src={'/assets/images/android.svg'}

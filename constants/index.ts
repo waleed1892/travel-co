@@ -58,3 +58,40 @@ export const FEATURES = [
       'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
   },
 ]
+
+export const FOOTER_LINKS = [
+  {
+    title: 'Learn More',
+    links: [
+      'About Hilink',
+      'Press Releases',
+      'Environment',
+      'Jobs',
+      'Privacy Policy',
+      'Contact Us',
+    ],
+  },
+  {
+    title: 'Our Community',
+    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+  },
+]
+
+export const FOOTER_CONTACT_INFO = {
+  title: 'Contact Us',
+  links: [
+    { label: 'Admin Officer', value: '123-456-7890' },
+    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+  ],
+}
+
+export const SOCIALS = {
+  title: 'Social',
+  links: [
+    '/assets/images/facebook.svg',
+    '/assets/images/instagram.svg',
+    '/assets/images/twitter.svg',
+    '/assets/images/youtube.svg',
+    '/assets/images/wordpress.svg',
+  ],
+}

@@ -7,7 +7,12 @@ const Navbar = () => {
   return (
     <nav className="container z-30 flex items-center justify-between py-5">
       <Link href={'/'}>
-        <Image width={150} height={80} src={'/logo.svg'} alt="TravelCo" />
+        <Image
+          width={150}
+          height={80}
+          src={'/assets/images/logo.svg'}
+          alt="TravelCo"
+        />
       </Link>
       <ul className="hidden h-full gap-12 lg:flex">
         {navLinks.map((link) => (
