@@ -27,7 +27,7 @@ const GetApp = () => {
             </Button>
             <Button
               size={'lg'}
-              className="w-full gap-3 rounded-full border border-gray-200 bg-green-900 hover:bg-transparent"
+              className="w-full gap-3 rounded-full border border-gray-200 bg-green-900 hover:bg-green-900"
             >
               <Image
                 src={'/assets/images/android.svg'}
