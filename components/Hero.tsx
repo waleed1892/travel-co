@@ -58,6 +58,7 @@ const Hero = () => {
               width={24}
               height={24}
               alt="play"
+              className="h-6 w-6"
             />
             How we work?
           </Button>
