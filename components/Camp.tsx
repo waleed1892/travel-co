@@ -1,5 +1,9 @@
+'use client'
+
 import { PEOPLE_IMAGE_URL } from '@/constants'
 import Image from 'next/image'
+import { Carousel, CarouselContent, CarouselItem } from './ui/carousel'
+import Autoplay from 'embla-carousel-autoplay'
 
 type CampSiteProps = {
   title: string
@@ -58,20 +62,35 @@ const CampSite = ({
 const Camp = () => {
   return (
     <section className="relative flex flex-col py-10 2xl:container lg:mb-10 lg:py-20 xl:mb-20">
-      <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
-        <CampSite
-          title="Camping"
-          subtitle="Camping in the wild"
-          peopleJoined={198}
-          backgroundImageClassname="bg-bg-img-1"
-        />
-        <CampSite
-          title="Hiking"
-          subtitle="Hiking in the wild"
-          peopleJoined={198}
-          backgroundImageClassname="bg-bg-img-2"
-        />
-      </div>
+      <Carousel
+        opts={{
+          loop: true,
+        }}
+        plugins={[
+          Autoplay({
+            delay: 3000,
+          }),
+        ]}
+      >
+        <CarouselContent className="h-[340px] lg:h-[400px] xl:h-[640px]">
+          <CarouselItem>
+            <CampSite
+              title="Camping"
+              subtitle="Camping in the wild"
+              peopleJoined={198}
+              backgroundImageClassname="bg-bg-img-1"
+            />
+          </CarouselItem>
+          <CarouselItem>
+            <CampSite
+              title="Hiking"
+              subtitle="Hiking in the wild"
+              peopleJoined={198}
+              backgroundImageClassname="bg-bg-img-2"
+            />
+          </CarouselItem>
+        </CarouselContent>
+      </Carousel>
 
       <div className="mt-10 flex items-end justify-end px-6 lg:-mt-60 lg:mr-6">
         <div className="relative w-full overflow-hidden rounded-3xl bg-green-500 p-8 lg:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20">
