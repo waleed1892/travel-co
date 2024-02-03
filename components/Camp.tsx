@@ -68,7 +68,7 @@ const Camp = () => {
         }}
         plugins={[
           Autoplay({
-            delay: 3000,
+            delay: 2500,
           }),
         ]}
       >
